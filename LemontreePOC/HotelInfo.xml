@@ -1,0 +1,627 @@
+﻿<?xml version="1.0"?>
+
+-<GetHotelDetailsResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+  -<OTA_HotelDescriptiveInfoRS TimeStamp="2019-12-26T04:38:12+00:00">
+
+    <Success xmlns="http://www.opentravel.org/OTA/2003/05"/>
+
+
+    -<HotelDescriptiveContents xmlns="http://www.opentravel.org/OTA/2003/05">
+
+
+      -<HotelDescriptiveContent Overwrite="true" TimeZone="+05:30" LanguageCode="en-US" CurrencyCode="INR" ChainName="Lemon Tree Hotels" ChainCode="7710" HotelCodeContext="CRS" HotelName="Lemon Tree Premier, Delhi Airport" HotelCode="57057">
+
+
+        -<HotelInfo>
+
+          <HotelName HotelShortName="Lemon Tree Premier, Delhi Airp"/>
+
+          <Position Longitude="77.210678" Latitude="28.613819"/>
+
+
+          -<Services>
+
+            <Service ProximityCode="onsite" Code="38" CodeDetail="Family plan"/>
+
+            <Service ProximityCode="onsite" Code="218" CodeDetail="Children welcome"/>
+
+            <Service ProximityCode="onsite" CodeDetail="All inclusive" MealPlanCode="1" Included="true"/>
+
+          </Services>
+
+        </HotelInfo>
+
+
+        -<FacilityInfo>
+
+
+          -<GuestRooms>
+
+
+            -<GuestRoom Code="BUSRUN" MaxOccupancy="3" RoomTypeName="Business Runway View Room" Quantity="20">
+
+              <TypeRoom Quantity="1" BedTypeCode="1" MaxRollaways="1" StandardNumBeds="1"/>
+
+
+              -<MultimediaDescriptions>
+
+
+                -<MultimediaDescription>
+
+
+                  -<TextItems>
+
+
+                    -<TextItem Title="Short Description">
+
+                      <Description Language="en-US">King/Twin bed• Free WiFi 24x7</Description>
+
+                    </TextItem>
+
+
+                    -<TextItem Title="Long Description">
+
+                      <Description Language="en-US">Includes: Rooftop poolside dinner on 14th evening, Complimentary buffet breakfast, Free WiFi 24X7, 500 bonus points exclusively on lemontreehotels.com</Description>
+
+                    </TextItem>
+
+                  </TextItems>
+
+                </MultimediaDescription>
+
+              </MultimediaDescriptions>
+
+            </GuestRoom>
+
+
+            -<GuestRoom Code="SUP" MaxOccupancy="3" RoomTypeName="Superior Room" Quantity="10">
+
+              <TypeRoom Quantity="1" BedTypeCode="1" MaxRollaways="1" StandardNumBeds="1"/>
+
+
+              -<MultimediaDescriptions>
+
+
+                -<MultimediaDescription>
+
+
+                  -<TextItems>
+
+
+                    -<TextItem Title="Short Description">
+
+                      <Description Language="en-US">• King/Twin beds • WiFi</Description>
+
+                    </TextItem>
+
+
+                    -<TextItem Title="Long Description">
+
+                      <Description Language="en-US">The standard room category of this hotel, these rooms come with King bed and modern amenities. Facilities like free WiFi*, tea/coffee maker and an electronic safe makes your stay cozy and comfortable.</Description>
+
+                    </TextItem>
+
+                  </TextItems>
+
+                </MultimediaDescription>
+
+              </MultimediaDescriptions>
+
+            </GuestRoom>
+
+
+            -<GuestRoom Code="8 to 8" MaxOccupancy="2" RoomTypeName="Day Use Room" Quantity="10">
+
+              <TypeRoom Quantity="1" BedTypeCode="3" MaxRollaways="1" StandardNumBeds="1"/>
+
+
+              -<MultimediaDescriptions>
+
+
+                -<MultimediaDescription>
+
+
+                  -<TextItems>
+
+
+                    -<TextItem Title="Short Description">
+
+                      <Description Language="en-US">• King/Queen beds • High speed WiFi</Description>
+
+                    </TextItem>
+
+
+                    -<TextItem Title="Long Description">
+
+                      <Description Language="en-US">These cozy rooms are designed to give you a great night’s sleep with an orthopedic mattress, excellent sound insulation and near-perfect black-out curtains. They come with an option of King and Twin beds and modern facilities. Contemporary ambience and facilities free WiFi 24x7, DVD Player, tea/coffee maker and an electronic safe make your stay comfortable and truly refreshing.</Description>
+
+                    </TextItem>
+
+                  </TextItems>
+
+                </MultimediaDescription>
+
+              </MultimediaDescriptions>
+
+            </GuestRoom>
+
+
+            -<GuestRoom Code="BUSS" MaxOccupancy="1" RoomTypeName="Business Room" Quantity="30">
+
+              <TypeRoom Quantity="1" BedTypeCode="9" MaxRollaways="0" StandardNumBeds="1"/>
+
+
+              -<MultimediaDescriptions>
+
+
+                -<MultimediaDescription>
+
+
+                  -<TextItems>
+
+
+                    -<TextItem Title="Short Description">
+
+                      <Description Language="en-US">• Single Princess bed • Free WiFi 24x7</Description>
+
+                    </TextItem>
+
+
+                    -<TextItem Title="Long Description">
+
+                      <Description Language="en-US">• Single Princess bed • Free WiFi 24x7</Description>
+
+                    </TextItem>
+
+                  </TextItems>
+
+                </MultimediaDescription>
+
+              </MultimediaDescriptions>
+
+            </GuestRoom>
+
+
+            -<GuestRoom Code="BUSR" MaxOccupancy="3" RoomTypeName="Business Double Room" Quantity="100">
+
+              <TypeRoom Quantity="1" BedTypeCode="9" MaxRollaways="0" StandardNumBeds="1"/>
+
+
+              -<MultimediaDescriptions>
+
+
+                -<MultimediaDescription>
+
+
+                  -<TextItems>
+
+
+                    -<TextItem Title="Short Description">
+
+                      <Description Language="en-US">• Twin/King Bed • Free WiFi 24x7</Description>
+
+                    </TextItem>
+
+
+                    -<TextItem Title="Long Description">
+
+                      <Description Language="en-US">These bright and spacious rooms are designed to give you a great night’s sleep with an orthopedic mattress, excellent sound insulation and near-perfect black-out curtains. They come with Twin/King bed and premium amenities, ergonomically designed for enhanced comfort. Facilities like free WiFi 24x7, DVD Player, tea/coffee maker and electronic safe make your stay cozy and comfortable.</Description>
+
+                    </TextItem>
+
+                  </TextItems>
+
+                </MultimediaDescription>
+
+              </MultimediaDescriptions>
+
+            </GuestRoom>
+
+
+            -<GuestRoom Code="Handicap" MaxOccupancy="2" RoomTypeName="Universally Accessible Rooms" Quantity="1">
+
+              <TypeRoom Quantity="1" MaxRollaways="0" StandardNumBeds="1"/>
+
+
+              -<MultimediaDescriptions>
+
+
+                -<MultimediaDescription>
+
+
+                  -<TextItems>
+
+
+                    -<TextItem Title="Short Description">
+
+                      <Description Language="en-US">Our 'Universally Accessible Rooms' are designed to ensure that our differently abled guests are able to access all features of the room and have a comfortable stay with us.</Description>
+
+                    </TextItem>
+
+
+                    -<TextItem Title="Long Description">
+
+                      <Description Language="en-US">Our 'Universally Accessible Rooms' are designed to ensure that our differently abled guests are able to access all features of the room and have a comfortable stay with us. These disability friendly rooms provide barrier free movement and easy access to the bed, bathroom - WC, sink and shower, desk, cupboard, etc. and an emergency call bell</Description>
+
+                    </TextItem>
+
+                  </TextItems>
+
+                </MultimediaDescription>
+
+              </MultimediaDescriptions>
+
+            </GuestRoom>
+
+
+            -<GuestRoom Code="EXS" MaxOccupancy="2" RoomTypeName="Executive Suite" Quantity="4">
+
+              <TypeRoom Quantity="1" BedTypeCode="1" MaxRollaways="1" StandardNumBeds="1"/>
+
+
+              -<MultimediaDescriptions>
+
+
+                -<MultimediaDescription>
+
+
+                  -<TextItems>
+
+
+                    -<TextItem Title="Short Description">
+
+                      <Description Language="en-US">• Combined living room and bedroom • Free WiFi 24x7</Description>
+
+                    </TextItem>
+
+
+                    -<TextItem Title="Long Description">
+
+                      <Description Language="en-US">These spacious rooms with their contemporary ambience, living room and separate sitting area come with King bed. It offers top of the class amenities and free WiFi 24x7</Description>
+
+                    </TextItem>
+
+                  </TextItems>
+
+                </MultimediaDescription>
+
+              </MultimediaDescriptions>
+
+            </GuestRoom>
+
+
+            -<GuestRoom Code="DLX" MaxOccupancy="3" RoomTypeName="Deluxe Room" Quantity="10">
+
+              <TypeRoom Quantity="1" BedTypeCode="1" MaxRollaways="1" StandardNumBeds="1"/>
+
+
+              -<MultimediaDescriptions>
+
+
+                -<MultimediaDescription>
+
+
+                  -<TextItems>
+
+
+                    -<TextItem Title="Short Description">
+
+                      <Description Language="en-US">Large room with King/Queen/Twin beds.</Description>
+
+                    </TextItem>
+
+
+                    -<TextItem Title="Long Description">
+
+                      <Description Language="en-US">With an option of King and Twin beds, these rooms come with free WiFi*. With facilities similar to those offered in the Superior Room and a contemporary ambience, these rooms are specially designed for a relaxed and comfortable experience.</Description>
+
+                    </TextItem>
+
+                  </TextItems>
+
+                </MultimediaDescription>
+
+              </MultimediaDescriptions>
+
+            </GuestRoom>
+
+
+            -<GuestRoom Code="Duplex Suite" MaxOccupancy="2" RoomTypeName="Duplex Suite" Quantity="2">
+
+              <TypeRoom Quantity="1" BedTypeCode="1" MaxRollaways="1" StandardNumBeds="1"/>
+
+
+              -<MultimediaDescriptions>
+
+
+                -<MultimediaDescription>
+
+
+                  -<TextItems>
+
+
+                    -<TextItem Title="Short Description">
+
+                      <Description Language="en-US">• Combined living room, two king sized beds and a separate dining area • Free WiFi 24x7</Description>
+
+                    </TextItem>
+
+
+                    -<TextItem Title="Long Description">
+
+                      <Description Language="en-US">These extra spacious and unique two-level suites are designed to take your comfort to a whole new level. With a living room, two king sized beds, a separate dining area and all premium amenities along with free WiFi 24x7, these suites offer you the ideal space to relax and rejuvenate on your business trips.</Description>
+
+                    </TextItem>
+
+                  </TextItems>
+
+                </MultimediaDescription>
+
+              </MultimediaDescriptions>
+
+            </GuestRoom>
+
+          </GuestRooms>
+
+          <MeetingRooms/>
+
+        </FacilityInfo>
+
+
+        -<Policies>
+
+
+          -<Policy>
+
+
+            -<CancelPolicy>
+
+
+              -<CancelPenalty PolicyCode="3Da">
+
+
+                -<PenaltyDescription>
+
+                  <Text>Cancellation made after 12 noon, 72 hrs prior to the check-in date: One night's room rate will be billed to your card</Text>
+
+                </PenaltyDescription>
+
+                <Deadline OffsetDropTime="BeforeArrival" OffsetUnitMultiplier="3" OffsetTimeUnit="Day" AbsoluteDeadline="1200+05:30"/>
+
+              </CancelPenalty>
+
+            </CancelPolicy>
+
+
+            -<PaymentPolicy>
+
+
+              -<RequiredPayment PaymentCode="GTD">
+
+                <Deadline OffsetDropTime="AfterBooking" OffsetUnitMultiplier="0" OffsetTimeUnit="Day"/>
+
+
+                -<PaymentDescription>
+
+                  <Text>Valid credit card details required to guarantee the reservations. We do not accept Debit Cards on our website.</Text>
+
+                </PaymentDescription>
+
+
+                -<AcceptedPayments>
+
+
+                  -<AcceptedPayment>
+
+                    <PaymentCard CardCode="SW"/>
+
+                  </AcceptedPayment>
+
+
+                  -<AcceptedPayment>
+
+                    <PaymentCard CardCode="VI"/>
+
+                  </AcceptedPayment>
+
+
+                  -<AcceptedPayment>
+
+                    <PaymentCard CardCode="MC"/>
+
+                  </AcceptedPayment>
+
+
+                  -<AcceptedPayment>
+
+                    <PaymentCard CardCode="JC"/>
+
+                  </AcceptedPayment>
+
+
+                  -<AcceptedPayment>
+
+                    <PaymentCard CardCode="AX"/>
+
+                  </AcceptedPayment>
+
+                </AcceptedPayments>
+
+              </RequiredPayment>
+
+            </PaymentPolicy>
+
+            <PolicyInfo MaxChildAge="11" KidsStayFree="true" CheckOutTime="1200" CheckInTime="1400"/>
+
+
+            -<GuaranteePaymentPolicy>
+
+
+              -<GuaranteePayment Type="Guarantee Policy">
+
+
+                -<Description>
+
+                  <Text>Valid credit card details required</Text>
+
+                </Description>
+
+              </GuaranteePayment>
+
+
+              -<GuaranteePayment Type="Deposit Policy">
+
+
+                -<Description>
+
+                  <Text>For promotional rate plans and during events full stay is being charged on non refundable basis</Text>
+
+                </Description>
+
+              </GuaranteePayment>
+
+            </GuaranteePaymentPolicy>
+
+
+            -<PetsPolicies>
+
+
+              -<PetsPolicy>
+
+
+                -<Description>
+
+                  <Text>No pets allowed in the premises</Text>
+
+                </Description>
+
+              </PetsPolicy>
+
+            </PetsPolicies>
+
+
+            -<PolicyInfoCodes>
+
+
+              -<PolicyInfoCode>
+
+
+                -<Description Name="Early Checkout">
+
+                  <Text>Early check out attracts addtional one room night as a retention</Text>
+
+                </Description>
+
+              </PolicyInfoCode>
+
+
+              -<PolicyInfoCode>
+
+
+                -<Description Name="Late Checkout">
+
+                  <Text>Late check out is subject to availability and can be extended at additional charge</Text>
+
+                </Description>
+
+              </PolicyInfoCode>
+
+
+              -<PolicyInfoCode>
+
+
+                -<Description Name="Family Policy">
+
+                  <Text>Rooms can accommodate 3 adults with one extra bed</Text>
+
+                </Description>
+
+              </PolicyInfoCode>
+
+
+              -<PolicyInfoCode>
+
+
+                -<Description Name="Group Policy">
+
+                  <Text>More than 5 rooms are considered to be a group. Hotel signs the contract for every group movement. Cancellation-no show policy based on the seasonaiity</Text>
+
+                </Description>
+
+              </PolicyInfoCode>
+
+            </PolicyInfoCodes>
+
+
+            -<CommissionPolicy>
+
+
+              -<Description>
+
+                <Text>IATA Travel Agents gets 10 percent commission on the retail rate plans</Text>
+
+              </Description>
+
+            </CommissionPolicy>
+
+          </Policy>
+
+        </Policies>
+
+
+        -<ContactInfos>
+
+
+          -<ContactInfo>
+
+
+            -<Names>
+
+              <Name/>
+
+            </Names>
+
+
+            -<Addresses>
+
+
+              -<Address DefaultInd="false" FormattedInd="false">
+
+                <AddressLine>Asset No 6 Hospitality District</AddressLine>
+
+                <AddressLine>Delhi Aerocity, IGI Airport</AddressLine>
+
+                <CityName>New Delhi</CityName>
+
+                <PostalCode>110037</PostalCode>
+
+                <StateProv StateCode="DL">Delhi</StateProv>
+
+                <CountryName Code="IN">India</CountryName>
+
+              </Address>
+
+            </Addresses>
+
+
+            -<Phones>
+
+              <Phone PhoneNumber="+91 11 44232323" PhoneTechType="Voice"/>
+
+              <Phone PhoneNumber="+91 11 41652666" PhoneTechType="Fax"/>
+
+            </Phones>
+
+          </ContactInfo>
+
+        </ContactInfos>
+
+      </HotelDescriptiveContent>
+
+    </HotelDescriptiveContents>
+
+  </OTA_HotelDescriptiveInfoRS>
+
+</GetHotelDetailsResponse>

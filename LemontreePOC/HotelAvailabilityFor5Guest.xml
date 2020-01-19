@@ -1,0 +1,2340 @@
+﻿<?xml version="1.0"?>
+
+-<CheckAvailabilityResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+  -<OTA_HotelAvailRS TimeStamp="2019-12-27T14:31:52+00:00">
+
+    <Success xmlns="http://www.opentravel.org/OTA/2003/05"/>
+
+
+    -<RoomStays xmlns="http://www.opentravel.org/OTA/2003/05">
+
+
+      -<RoomStay AvailableIndicator="true">
+
+
+        -<RoomTypes>
+
+
+          -<RoomType Quantity="1" BedTypeCode="1" NumberOfUnits="30" RoomTypeCode="BUSR">
+
+
+            -<RoomDescription Name="Business Room">
+
+              <Text>These smartly designed and fully air-conditioned rooms come with an option of King and Twin beds. They offer a range of smart amenities including LCD TVs, free WiFi 24x7 , tea/coffee maker, mini fridge and a high quality mattress. Designed for a cozy sleep experience and a comfortable stay, these rooms are crisp and clean and come to you at an unbeatable value.</Text>
+
+              <Image/>
+
+            </RoomDescription>
+
+            <Occupancy MaxOccupancy="3"/>
+
+
+            -<Amenities>
+
+              <Amenity RoomAmenity="91"/>
+
+            </Amenities>
+
+
+            -<AdditionalDetails>
+
+
+              -<AdditionalDetail Code="ShortDescription" Type="4">
+
+
+                -<DetailDescription>
+
+                  <Text>• King/Twin beds • Free WiFi 24x7</Text>
+
+                </DetailDescription>
+
+              </AdditionalDetail>
+
+
+              -<AdditionalDetail Code="LongDescription" Type="4">
+
+
+                -<DetailDescription>
+
+                  <Text>These smartly designed and fully air-conditioned rooms come with an option of King and Twin beds. They offer a range of smart amenities including LCD TVs, free WiFi 24x7 , tea/coffee maker, mini fridge and a high quality mattress. Designed for a cozy sleep experience and a comfortable stay, these rooms are crisp and clean and come to you at an unbeatable value.</Text>
+
+                </DetailDescription>
+
+              </AdditionalDetail>
+
+            </AdditionalDetails>
+
+
+            -<TPA_Extensions ADACompliantIndicator="false">
+
+
+              -<BedTypes>
+
+                <BedType Quantity="1" BedTypeCode="1"/>
+
+              </BedTypes>
+
+            </TPA_Extensions>
+
+          </RoomType>
+
+
+          -<RoomType Quantity="1" BedTypeCode="1" NumberOfUnits="2" RoomTypeCode="EXST">
+
+
+            -<RoomDescription Name="Executive Suite">
+
+              <Text>These suites with contemporary ambience are tailor made for greater comfort. They come with free WiFi 24x7, a King bed, orthopedic mattress and select amenities that designed to make your stay a relaxing and a refreshing one.</Text>
+
+              <Image/>
+
+            </RoomDescription>
+
+            <Occupancy MaxOccupancy="3"/>
+
+
+            -<Amenities>
+
+              <Amenity RoomAmenity="91"/>
+
+            </Amenities>
+
+
+            -<AdditionalDetails>
+
+
+              -<AdditionalDetail Code="ShortDescription" Type="4">
+
+
+                -<DetailDescription>
+
+                  <Text>• Orthopedic mattress • King bed • Free WiFi 24x7</Text>
+
+                </DetailDescription>
+
+              </AdditionalDetail>
+
+
+              -<AdditionalDetail Code="LongDescription" Type="4">
+
+
+                -<DetailDescription>
+
+                  <Text>These suites with contemporary ambience are tailor made for greater comfort. They come with free WiFi 24x7, a King bed, orthopedic mattress and select amenities that designed to make your stay a relaxing and a refreshing one.</Text>
+
+                </DetailDescription>
+
+              </AdditionalDetail>
+
+            </AdditionalDetails>
+
+
+            -<TPA_Extensions ADACompliantIndicator="false">
+
+
+              -<BedTypes>
+
+                <BedType Quantity="1" BedTypeCode="1"/>
+
+              </BedTypes>
+
+            </TPA_Extensions>
+
+          </RoomType>
+
+        </RoomTypes>
+
+
+        -<RatePlans>
+
+
+          -<RatePlan RatePlanName="Last Minute Deal" RatePlanCode="BAR Promotion BNX CP">
+
+
+            -<RatePlanDescription Name="Last Minute Deal">
+
+              <Text>10% off on Best Available Rates, for your last minute plans. The offer includes: Breakfast at Coffee Shop | Ultra high speed WiFi for upto 4 devices | 1000 Bonus Points for Lemon Tree Smiles members (for bookings exclusively on lemontreehotels.com)</Text>
+
+            </RatePlanDescription>
+
+
+            -<Guarantee GuaranteeCode="DEP NRF">
+
+
+              -<GuaranteeDescription>
+
+                <Text>Entire Stay prepaid, Non-refundable, Non-amendable.</Text>
+
+              </GuaranteeDescription>
+
+              <AmountPercent TaxInclusive="true" Percent="100"/>
+
+              <Deadline OffsetDropTime="AfterBooking" OffsetUnitMultiplier="0" OffsetTimeUnit="Day"/>
+
+            </Guarantee>
+
+
+            -<CancelPenalties>
+
+
+              -<CancelPenalty PolicyCode="BNX">
+
+
+                -<PenaltyDescription>
+
+                  <Text>Non-cancellable, non-refundable and non amendable for entire length of stay. Entire deposit on booking, non refundable.</Text>
+
+                </PenaltyDescription>
+
+                <AmountPercent TaxInclusive="true" Percent="100"/>
+
+              </CancelPenalty>
+
+            </CancelPenalties>
+
+            <MealsIncluded Dinner="false" Lunch="false" Breakfast="true"/>
+
+          </RatePlan>
+
+
+          -<RatePlan RatePlanName="Best Available Rate" RatePlanCode="BAR promotion CP">
+
+
+            -<RatePlanDescription Name="Best Available Rate">
+
+              <Text>The offer includes: Breakfast at Coffee Shop | Ultra high speed WiFi for upto 4 devices | 1000 Bonus Points for Lemon Tree Smiles members (for bookings exclusively on lemontreehotels.com)</Text>
+
+            </RatePlanDescription>
+
+
+            -<Guarantee GuaranteeCode="DEP NRF">
+
+
+              -<GuaranteeDescription>
+
+                <Text>Entire Stay prepaid, Non-refundable, Non-amendable.</Text>
+
+              </GuaranteeDescription>
+
+              <AmountPercent TaxInclusive="true" Percent="100"/>
+
+              <Deadline OffsetDropTime="AfterBooking" OffsetUnitMultiplier="0" OffsetTimeUnit="Day"/>
+
+            </Guarantee>
+
+
+            -<CancelPenalties>
+
+
+              -<CancelPenalty PolicyCode="3Da">
+
+
+                -<PenaltyDescription>
+
+                  <Text>Cancellation made after 12 noon, 72 hrs prior to the check-in date: One night's room rate will be billed to your card</Text>
+
+                </PenaltyDescription>
+
+                <AmountPercent TaxInclusive="true" NmbrOfNights="1"/>
+
+                <Deadline AbsoluteDeadline="2019-12-25T12:00:00+05:30"/>
+
+              </CancelPenalty>
+
+            </CancelPenalties>
+
+            <MealsIncluded Dinner="false" Lunch="false" Breakfast="true"/>
+
+          </RatePlan>
+
+
+          -<RatePlan RatePlanName="Business Package" RatePlanCode="Business Package">
+
+
+            -<RatePlanDescription Name="Business Package">
+
+              <Text>For members only! Customizedpackage for members travelling for business. The offer includes: 2 way Office Transfers | Complimentary Buffet Breakfast| Free WiFi 24X7 |Lunch or Dinner | Daily Laundry (2 pieces) | 1000 Bonus Points (for bookings exclusively on lemontreehotels.com).</Text>
+
+            </RatePlanDescription>
+
+
+            -<Guarantee GuaranteeCode="GTD">
+
+
+              -<GuaranteeDescription>
+
+                <Text>Valid credit card details required to guarantee the reservations. We do not accept Debit Cards on our website.</Text>
+
+              </GuaranteeDescription>
+
+            </Guarantee>
+
+
+            -<CancelPenalties>
+
+
+              -<CancelPenalty PolicyCode="BNX">
+
+
+                -<PenaltyDescription>
+
+                  <Text>Non-cancellable, non-refundable and non amendable for entire length of stay. Entire deposit on booking, non refundable.</Text>
+
+                </PenaltyDescription>
+
+                <AmountPercent TaxInclusive="true" Percent="100"/>
+
+              </CancelPenalty>
+
+            </CancelPenalties>
+
+            <MealsIncluded Dinner="false" Lunch="false" Breakfast="false"/>
+
+          </RatePlan>
+
+        </RatePlans>
+
+
+        -<RoomRates>
+
+
+          -<RoomRate NumberOfUnits="30" RoomTypeCode="BUSR" RatePlanCode="BAR Promotion BNX CP">
+
+
+            -<Rates>
+
+
+              -<Rate>
+
+
+                -<CancelPolicies>
+
+
+                  -<CancelPenalty PolicyCode="BNX">
+
+
+                    -<PenaltyDescription>
+
+                      <Text>Non-cancellable, non-refundable and non amendable for entire length of stay. Entire deposit on booking, non refundable.</Text>
+
+                    </PenaltyDescription>
+
+                    <AmountPercent TaxInclusive="true" CurrencyCode="INR" Amount="9812.88"/>
+
+                  </CancelPenalty>
+
+                </CancelPolicies>
+
+
+                -<PaymentPolicies>
+
+
+                  -<GuaranteePayment GuaranteeCode="DEP NRF">
+
+
+                    -<Description>
+
+                      <Text>Entire Stay prepaid, Non-refundable, Non-amendable.</Text>
+
+                    </Description>
+
+                    <AmountPercent TaxInclusive="true" CurrencyCode="INR" Amount="9812.88"/>
+
+                    <Deadline OffsetDropTime="AfterBooking" OffsetUnitMultiplier="0" OffsetTimeUnit="Day"/>
+
+                  </GuaranteePayment>
+
+                </PaymentPolicies>
+
+                <Base CurrencyCode="INR" AmountAfterTax="4906.44" AmountBeforeTax="3780.00"/>
+
+
+                -<Fees>
+
+                  <Fee CurrencyCode="INR" Amount="0.00"/>
+
+                </Fees>
+
+
+                -<Total CurrencyCode="INR" AmountAfterTax="9812.88" AmountBeforeTax="7560.00">
+
+
+                  -<Taxes Amount="2252.88">
+
+
+                    -<Tax Code="19" Amount="446.04" ChargeFrequency="1" ExpireDate="2019-12-29" EffectiveDate="2019-12-28">
+
+
+                      -<TaxDescription Name="Name">
+
+                        <Text>Service Charge</Text>
+
+                      </TaxDescription>
+
+
+                      -<TaxDescription Name="Description">
+
+                        <Text>Service charge</Text>
+
+                      </TaxDescription>
+
+                    </Tax>
+
+
+                    -<Tax Code="19" Amount="680.40" ChargeFrequency="1" ExpireDate="2019-12-29" EffectiveDate="2019-12-28">
+
+
+                      -<TaxDescription Name="Name">
+
+                        <Text>GST18%</Text>
+
+                      </TaxDescription>
+
+
+                      -<TaxDescription Name="Description">
+
+                        <Text>GST18%</Text>
+
+                      </TaxDescription>
+
+                    </Tax>
+
+                  </Taxes>
+
+                </Total>
+
+
+                -<Taxes>
+
+                  <Tax CurrencyCode="INR" Amount="2252.88"/>
+
+                </Taxes>
+
+
+                -<Tpa_Extensions>
+
+                  <NightlyRate PriceWithTaxAndFee="4906.44" Fee="0.00" Tax="1126.44" Price="3780.00" Date="12/28/2019"/>
+
+                  <NightlyRate PriceWithTaxAndFee="4906.44" Fee="0.00" Tax="1126.44" Price="3780.00" Date="12/29/2019"/>
+
+                </Tpa_Extensions>
+
+              </Rate>
+
+            </Rates>
+
+          </RoomRate>
+
+
+          -<RoomRate NumberOfUnits="2" RoomTypeCode="EXST" RatePlanCode="BAR Promotion BNX CP">
+
+
+            -<Rates>
+
+
+              -<Rate>
+
+
+                -<CancelPolicies>
+
+
+                  -<CancelPenalty PolicyCode="BNX">
+
+
+                    -<PenaltyDescription>
+
+                      <Text>Non-cancellable, non-refundable and non amendable for entire length of stay. Entire deposit on booking, non refundable.</Text>
+
+                    </PenaltyDescription>
+
+                    <AmountPercent TaxInclusive="true" CurrencyCode="INR" Amount="18327.76"/>
+
+                  </CancelPenalty>
+
+                </CancelPolicies>
+
+
+                -<PaymentPolicies>
+
+
+                  -<GuaranteePayment GuaranteeCode="DEP NRF">
+
+
+                    -<Description>
+
+                      <Text>Entire Stay prepaid, Non-refundable, Non-amendable.</Text>
+
+                    </Description>
+
+                    <AmountPercent TaxInclusive="true" CurrencyCode="INR" Amount="18327.76"/>
+
+                    <Deadline OffsetDropTime="AfterBooking" OffsetUnitMultiplier="0" OffsetTimeUnit="Day"/>
+
+                  </GuaranteePayment>
+
+                </PaymentPolicies>
+
+                <Base CurrencyCode="INR" AmountAfterTax="9163.88" AmountBeforeTax="7060.00"/>
+
+
+                -<Fees>
+
+                  <Fee CurrencyCode="INR" Amount="0.00"/>
+
+                </Fees>
+
+
+                -<Total CurrencyCode="INR" AmountAfterTax="18327.76" AmountBeforeTax="14120.00">
+
+
+                  -<Taxes Amount="4207.76">
+
+
+                    -<Tax Code="19" Amount="833.08" ChargeFrequency="1" ExpireDate="2019-12-29" EffectiveDate="2019-12-28">
+
+
+                      -<TaxDescription Name="Name">
+
+                        <Text>Service Charge</Text>
+
+                      </TaxDescription>
+
+
+                      -<TaxDescription Name="Description">
+
+                        <Text>Service charge</Text>
+
+                      </TaxDescription>
+
+                    </Tax>
+
+
+                    -<Tax Code="19" Amount="1270.80" ChargeFrequency="1" ExpireDate="2019-12-29" EffectiveDate="2019-12-28">
+
+
+                      -<TaxDescription Name="Name">
+
+                        <Text>GST18%</Text>
+
+                      </TaxDescription>
+
+
+                      -<TaxDescription Name="Description">
+
+                        <Text>GST18%</Text>
+
+                      </TaxDescription>
+
+                    </Tax>
+
+                  </Taxes>
+
+                </Total>
+
+
+                -<Taxes>
+
+                  <Tax CurrencyCode="INR" Amount="4207.76"/>
+
+                </Taxes>
+
+
+                -<Tpa_Extensions>
+
+                  <NightlyRate PriceWithTaxAndFee="9163.88" Fee="0.00" Tax="2103.88" Price="7060.00" Date="12/28/2019"/>
+
+                  <NightlyRate PriceWithTaxAndFee="9163.88" Fee="0.00" Tax="2103.88" Price="7060.00" Date="12/29/2019"/>
+
+                </Tpa_Extensions>
+
+              </Rate>
+
+            </Rates>
+
+          </RoomRate>
+
+
+          -<RoomRate NumberOfUnits="30" RoomTypeCode="BUSR" RatePlanCode="BAR promotion CP">
+
+
+            -<Rates>
+
+
+              -<Rate>
+
+
+                -<CancelPolicies>
+
+
+                  -<CancelPenalty PolicyCode="3Da">
+
+
+                    -<PenaltyDescription>
+
+                      <Text>Cancellation made after 12 noon, 72 hrs prior to the check-in date: One night's room rate will be billed to your card</Text>
+
+                    </PenaltyDescription>
+
+                    <AmountPercent TaxInclusive="true" CurrencyCode="INR" Amount="4906.44"/>
+
+                    <Deadline AbsoluteDeadline="2019-12-25T12:00:00+05:30"/>
+
+                  </CancelPenalty>
+
+                </CancelPolicies>
+
+
+                -<PaymentPolicies>
+
+
+                  -<GuaranteePayment GuaranteeCode="DEP NRF">
+
+
+                    -<Description>
+
+                      <Text>Entire Stay prepaid, Non-refundable, Non-amendable.</Text>
+
+                    </Description>
+
+                    <AmountPercent TaxInclusive="true" CurrencyCode="INR" Amount="9812.88"/>
+
+                    <Deadline OffsetDropTime="AfterBooking" OffsetUnitMultiplier="0" OffsetTimeUnit="Day"/>
+
+                  </GuaranteePayment>
+
+                </PaymentPolicies>
+
+                <Base CurrencyCode="INR" AmountAfterTax="4906.44" AmountBeforeTax="3780.00"/>
+
+
+                -<Fees>
+
+                  <Fee CurrencyCode="INR" Amount="0.00"/>
+
+                </Fees>
+
+
+                -<Total CurrencyCode="INR" AmountAfterTax="9812.88" AmountBeforeTax="7560.00">
+
+
+                  -<Taxes Amount="2252.88">
+
+
+                    -<Tax Code="19" Amount="446.04" ChargeFrequency="1" ExpireDate="2019-12-29" EffectiveDate="2019-12-28">
+
+
+                      -<TaxDescription Name="Name">
+
+                        <Text>Service Charge</Text>
+
+                      </TaxDescription>
+
+
+                      -<TaxDescription Name="Description">
+
+                        <Text>Service charge</Text>
+
+                      </TaxDescription>
+
+                    </Tax>
+
+
+                    -<Tax Code="19" Amount="680.40" ChargeFrequency="1" ExpireDate="2019-12-29" EffectiveDate="2019-12-28">
+
+
+                      -<TaxDescription Name="Name">
+
+                        <Text>GST18%</Text>
+
+                      </TaxDescription>
+
+
+                      -<TaxDescription Name="Description">
+
+                        <Text>GST18%</Text>
+
+                      </TaxDescription>
+
+                    </Tax>
+
+                  </Taxes>
+
+                </Total>
+
+
+                -<Taxes>
+
+                  <Tax CurrencyCode="INR" Amount="2252.88"/>
+
+                </Taxes>
+
+
+                -<Tpa_Extensions>
+
+                  <NightlyRate PriceWithTaxAndFee="4906.44" Fee="0.00" Tax="1126.44" Price="3780.00" Date="12/28/2019"/>
+
+                  <NightlyRate PriceWithTaxAndFee="4906.44" Fee="0.00" Tax="1126.44" Price="3780.00" Date="12/29/2019"/>
+
+                </Tpa_Extensions>
+
+              </Rate>
+
+            </Rates>
+
+          </RoomRate>
+
+
+          -<RoomRate NumberOfUnits="2" RoomTypeCode="EXST" RatePlanCode="BAR promotion CP">
+
+
+            -<Rates>
+
+
+              -<Rate>
+
+
+                -<CancelPolicies>
+
+
+                  -<CancelPenalty PolicyCode="3Da">
+
+
+                    -<PenaltyDescription>
+
+                      <Text>Cancellation made after 12 noon, 72 hrs prior to the check-in date: One night's room rate will be billed to your card</Text>
+
+                    </PenaltyDescription>
+
+                    <AmountPercent TaxInclusive="true" CurrencyCode="INR" Amount="9163.88"/>
+
+                    <Deadline AbsoluteDeadline="2019-12-25T12:00:00+05:30"/>
+
+                  </CancelPenalty>
+
+                </CancelPolicies>
+
+
+                -<PaymentPolicies>
+
+
+                  -<GuaranteePayment GuaranteeCode="DEP NRF">
+
+
+                    -<Description>
+
+                      <Text>Entire Stay prepaid, Non-refundable, Non-amendable.</Text>
+
+                    </Description>
+
+                    <AmountPercent TaxInclusive="true" CurrencyCode="INR" Amount="18327.76"/>
+
+                    <Deadline OffsetDropTime="AfterBooking" OffsetUnitMultiplier="0" OffsetTimeUnit="Day"/>
+
+                  </GuaranteePayment>
+
+                </PaymentPolicies>
+
+                <Base CurrencyCode="INR" AmountAfterTax="9163.88" AmountBeforeTax="7060.00"/>
+
+
+                -<Fees>
+
+                  <Fee CurrencyCode="INR" Amount="0.00"/>
+
+                </Fees>
+
+
+                -<Total CurrencyCode="INR" AmountAfterTax="18327.76" AmountBeforeTax="14120.00">
+
+
+                  -<Taxes Amount="4207.76">
+
+
+                    -<Tax Code="19" Amount="833.08" ChargeFrequency="1" ExpireDate="2019-12-29" EffectiveDate="2019-12-28">
+
+
+                      -<TaxDescription Name="Name">
+
+                        <Text>Service Charge</Text>
+
+                      </TaxDescription>
+
+
+                      -<TaxDescription Name="Description">
+
+                        <Text>Service charge</Text>
+
+                      </TaxDescription>
+
+                    </Tax>
+
+
+                    -<Tax Code="19" Amount="1270.80" ChargeFrequency="1" ExpireDate="2019-12-29" EffectiveDate="2019-12-28">
+
+
+                      -<TaxDescription Name="Name">
+
+                        <Text>GST18%</Text>
+
+                      </TaxDescription>
+
+
+                      -<TaxDescription Name="Description">
+
+                        <Text>GST18%</Text>
+
+                      </TaxDescription>
+
+                    </Tax>
+
+                  </Taxes>
+
+                </Total>
+
+
+                -<Taxes>
+
+                  <Tax CurrencyCode="INR" Amount="4207.76"/>
+
+                </Taxes>
+
+
+                -<Tpa_Extensions>
+
+                  <NightlyRate PriceWithTaxAndFee="9163.88" Fee="0.00" Tax="2103.88" Price="7060.00" Date="12/28/2019"/>
+
+                  <NightlyRate PriceWithTaxAndFee="9163.88" Fee="0.00" Tax="2103.88" Price="7060.00" Date="12/29/2019"/>
+
+                </Tpa_Extensions>
+
+              </Rate>
+
+            </Rates>
+
+          </RoomRate>
+
+
+          -<RoomRate NumberOfUnits="30" RoomTypeCode="BUSR" RatePlanCode="Business Package">
+
+
+            -<Rates>
+
+
+              -<Rate>
+
+
+                -<CancelPolicies>
+
+
+                  -<CancelPenalty PolicyCode="BNX">
+
+
+                    -<PenaltyDescription>
+
+                      <Text>Non-cancellable, non-refundable and non amendable for entire length of stay. Entire deposit on booking, non refundable.</Text>
+
+                    </PenaltyDescription>
+
+                    <AmountPercent TaxInclusive="true" CurrencyCode="INR" Amount="12811.26"/>
+
+                  </CancelPenalty>
+
+                </CancelPolicies>
+
+
+                -<PaymentPolicies>
+
+
+                  -<GuaranteePayment GuaranteeCode="GTD">
+
+
+                    -<Description>
+
+                      <Text>Valid credit card details required to guarantee the reservations. We do not accept Debit Cards on our website.</Text>
+
+                    </Description>
+
+                    <AmountPercent TaxInclusive="false" CurrencyCode="INR" Amount="0.00"/>
+
+                  </GuaranteePayment>
+
+                </PaymentPolicies>
+
+                <Base CurrencyCode="INR" AmountAfterTax="6405.63" AmountBeforeTax="4935.00"/>
+
+
+                -<Fees>
+
+                  <Fee CurrencyCode="INR" Amount="0.00"/>
+
+                </Fees>
+
+
+                -<Total CurrencyCode="INR" AmountAfterTax="12811.26" AmountBeforeTax="9870.00">
+
+
+                  -<Taxes Amount="2941.26">
+
+
+                    -<Tax Code="19" Amount="582.33" ChargeFrequency="1" ExpireDate="2019-12-29" EffectiveDate="2019-12-28">
+
+
+                      -<TaxDescription Name="Name">
+
+                        <Text>Service Charge</Text>
+
+                      </TaxDescription>
+
+
+                      -<TaxDescription Name="Description">
+
+                        <Text>Service charge</Text>
+
+                      </TaxDescription>
+
+                    </Tax>
+
+
+                    -<Tax Code="19" Amount="888.30" ChargeFrequency="1" ExpireDate="2019-12-29" EffectiveDate="2019-12-28">
+
+
+                      -<TaxDescription Name="Name">
+
+                        <Text>GST18%</Text>
+
+                      </TaxDescription>
+
+
+                      -<TaxDescription Name="Description">
+
+                        <Text>GST18%</Text>
+
+                      </TaxDescription>
+
+                    </Tax>
+
+                  </Taxes>
+
+                </Total>
+
+
+                -<Taxes>
+
+                  <Tax CurrencyCode="INR" Amount="2941.26"/>
+
+                </Taxes>
+
+
+                -<Tpa_Extensions>
+
+                  <NightlyRate PriceWithTaxAndFee="6405.63" Fee="0.00" Tax="1470.63" Price="4935.00" Date="12/28/2019"/>
+
+                  <NightlyRate PriceWithTaxAndFee="6405.63" Fee="0.00" Tax="1470.63" Price="4935.00" Date="12/29/2019"/>
+
+                </Tpa_Extensions>
+
+              </Rate>
+
+            </Rates>
+
+          </RoomRate>
+
+
+          -<RoomRate NumberOfUnits="2" RoomTypeCode="EXST" RatePlanCode="Business Package">
+
+
+            -<Rates>
+
+
+              -<Rate>
+
+
+                -<CancelPolicies>
+
+
+                  -<CancelPenalty PolicyCode="BNX">
+
+
+                    -<PenaltyDescription>
+
+                      <Text>Non-cancellable, non-refundable and non amendable for entire length of stay. Entire deposit on booking, non refundable.</Text>
+
+                    </PenaltyDescription>
+
+                    <AmountPercent TaxInclusive="true" CurrencyCode="INR" Amount="24523.72"/>
+
+                  </CancelPenalty>
+
+                </CancelPolicies>
+
+
+                -<PaymentPolicies>
+
+
+                  -<GuaranteePayment GuaranteeCode="GTD">
+
+
+                    -<Description>
+
+                      <Text>Valid credit card details required to guarantee the reservations. We do not accept Debit Cards on our website.</Text>
+
+                    </Description>
+
+                    <AmountPercent TaxInclusive="false" CurrencyCode="INR" Amount="0.00"/>
+
+                  </GuaranteePayment>
+
+                </PaymentPolicies>
+
+                <Base CurrencyCode="INR" AmountAfterTax="12261.86" AmountBeforeTax="8771.00"/>
+
+
+                -<Fees>
+
+                  <Fee CurrencyCode="INR" Amount="0.00"/>
+
+                </Fees>
+
+
+                -<Total CurrencyCode="INR" AmountAfterTax="24523.72" AmountBeforeTax="17542.00">
+
+
+                  -<Taxes Amount="6981.72">
+
+
+                    -<Tax Code="19" Amount="1034.98" ChargeFrequency="1" ExpireDate="2019-12-29" EffectiveDate="2019-12-28">
+
+
+                      -<TaxDescription Name="Name">
+
+                        <Text>Service Charge</Text>
+
+                      </TaxDescription>
+
+
+                      -<TaxDescription Name="Description">
+
+                        <Text>Service charge</Text>
+
+                      </TaxDescription>
+
+                    </Tax>
+
+
+                    -<Tax Code="19" Amount="2455.88" ChargeFrequency="1" ExpireDate="2019-12-29" EffectiveDate="2019-12-28">
+
+
+                      -<TaxDescription Name="Name">
+
+                        <Text>GST28%</Text>
+
+                      </TaxDescription>
+
+
+                      -<TaxDescription Name="Description">
+
+                        <Text>GST28%</Text>
+
+                      </TaxDescription>
+
+                    </Tax>
+
+                  </Taxes>
+
+                </Total>
+
+
+                -<Taxes>
+
+                  <Tax CurrencyCode="INR" Amount="6981.72"/>
+
+                </Taxes>
+
+
+                -<Tpa_Extensions>
+
+                  <NightlyRate PriceWithTaxAndFee="12261.86" Fee="0.00" Tax="3490.86" Price="8771.00" Date="12/28/2019"/>
+
+                  <NightlyRate PriceWithTaxAndFee="12261.86" Fee="0.00" Tax="3490.86" Price="8771.00" Date="12/29/2019"/>
+
+                </Tpa_Extensions>
+
+              </Rate>
+
+            </Rates>
+
+          </RoomRate>
+
+        </RoomRates>
+
+
+        -<BasicPropertyInfo HotelName="Red Fox Hotel, HITEC City, Hyderabad" HotelCode="58957">
+
+
+          -<VendorMessages>
+
+
+            -<VendorMessage InfoType="18">
+
+
+              -<SubSection>
+
+
+                -<Paragraph Name="Name">
+
+                  <Text>15% off on Food & Soft Beverages on your stays </Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="ShortDescription">
+
+                  <Text>15% off on Food & Soft Beverages on your stays </Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="LongDescription">
+
+                  <Text>15% off on Food & Soft Beverages on your stays </Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Start">
+
+                  <Text>01/08/2019</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="End">
+
+                  <Text>03/31/2020</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>MBEBNX</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Nokia 2017</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Republic Day</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2014 MAYOCOL</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2014 iGate special</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2014 LMD for Mobile</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2014 Mobile 10%</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2015 Jan Mayo Colleg</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2015 Jul Corporate r</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2015 Jun AU-KBC Rese</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2015 Jun Refiral Off</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Kotak Bank</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Long Stay Rate</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Accommable - NR</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2015 Jul BAR promoti</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Tarudhan</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Friends30 2016 Non</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>GOALS101GODZILLA10</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Holi Splash 2017</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>LTSBAR NON</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>MAP</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2017 HCL CPAI</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2014 Mobile Exclusiv</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2015 Jun Referral</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2015 Mar Welcome Ba1</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>BAR Promotion BNX CP</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>FCM Rate</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Alliance 15</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>SUNDAY</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>LTHWEB</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>AD-14</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>LTHGL</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Go Air Rate</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>IBCC2018</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Lemon Tree Anniversa</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>LOS 8 to 9</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>MBEB</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>MBEBEP</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>S2P1</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>S3 P2</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>BAR Promo BNX Mobile</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2015 Exclusive Times</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2014 Sep Business Pa</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>BARCP</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>CSR N 2</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Corporate Solutions</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>FCM Static</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>FLAT30 NON</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>LTOLA</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>LOS 10</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Long Weekend Offer</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2017 HCL Group Speci</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>SR5</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>UNLOCK 30</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2014 LTSWEB CP 5%</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2014 Mobile 20%</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2014 Mobile CP</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>AWFIS EMP BAR</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>CSR Accenture 2</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Festive offer</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>F&F 2016</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>HONDA</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>MARUTI</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>HBSR</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>LMD</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Mega Sale Offer</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>MBEBNXEP</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>RMK</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>SHRM</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>WSR</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>AIRTEL SPCL RATE (BNX)</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2015 Feb Weekend Pac</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2015 Mar Welcome Bac</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2015 May LTHCART</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Deal Of The Day</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Independence</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Flash Sale Sep 2016</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>HEXAGON2017</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>ICICI</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2014 Lemon Tree Smil</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>PayTM25</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2015 Mar S2P1 Welcom</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2014 Oct Amex Card o</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2014Sep BAJAJFIN0001</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2015 Mar Welcome Ba2</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>S3P2</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>4 Hours</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>8 Hours</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>AWFIS EMP</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>BAR Awfis Rate</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>CSR Accenture</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>CSR C</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>LMD 2017</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2017 Alliance 21%Off</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>AD-7</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>FLAT30</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Nokia Dec 2017</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>MOBILE 10%</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Referral Offer</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>LTSAVVYMOB</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>FD 10 %</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>CSR N</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>CSR C 2</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2014 Samsung offer</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>F&F 2014</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Friends 2016 Non</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>GOALS101GOLD</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2014 LT Smile Breakf</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>MAP - NR</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Spice Jet</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>SUPR</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2015 Tattva</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Tattva Wend package</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>The Godzilla Sale</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>SR3</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Unwind @Weekend-Upto</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>STAYCATIONS</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>SR2</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>TARUDHAN NON</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>SR1</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>SR4</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2016 Jun AHM 2016</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2014 LTSWEB EP 5%</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2015 Jan LMD Live</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Early Bird 2017</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2018 TestPayment</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>FACEBOOK</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>AD-21</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>AIRTEL EMP RATE</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>AIRTEL EMP RATE (BNX)</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>BAR AWFISLT</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>LTAXIS</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>BARST</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>BAREP</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>BAR promotion EP</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>BARNON</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Book & 10 %</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>LTCSR</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Fake Plan</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Axis</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Festive 30%</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Referral Friend</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>FnF2010</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Friends30 2016</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Holi Sale</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>CIPLA</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>ICANN2016</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>JMJ</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>LOS 5 to 7</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>LTVISA (NON)</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>MAS</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Nokia</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>PayTM</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>WKNDB</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>WIPRO LIMITED</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>ALLIANCE 20 (BNX)</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>BAR promotion CP</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>FCM NON</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2018Godzilla Mega Sale</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>2018 Kotak Mahindra</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>ALLIANCE 20</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Accommable</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>AIRTEL SPCL RATE</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Business Package</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Axis Bank</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>Giveaway Offer</Text>
+
+                </Paragraph>
+
+
+                -<Paragraph Name="Rate">
+
+                  <Text>GoAir</Text>
+
+                </Paragraph>
+
+              </SubSection>
+
+            </VendorMessage>
+
+          </VendorMessages>
+
+
+          -<Address DefaultInd="false" FormattedInd="false">
+
+            <AddressLine>Plot No2 Survey No 64</AddressLine>
+
+            <AddressLine>HITEC City, Madhapur</AddressLine>
+
+            <CityName>Hyderabad</CityName>
+
+            <PostalCode>500081</PostalCode>
+
+            <StateProv StateCode="AP"/>
+
+            <CountryName Code="IN"/>
+
+          </Address>
+
+
+          -<ContactNumbers>
+
+            <ContactNumber DefaultInd="true" PhoneNumber="+91 40 44484848" PhoneTechType="1"/>
+
+            <ContactNumber DefaultInd="false" PhoneNumber="+91 40 44484849" PhoneTechType="3"/>
+
+          </ContactNumbers>
+
+        </BasicPropertyInfo>
+
+      </RoomStay>
+
+    </RoomStays>
+
+
+    -<Criteria xmlns="http://www.opentravel.org/OTA/2003/05">
+
+
+      -<Criterion>
+
+        <HotelRef HotelName="Red Fox Hotel, HITEC City, Hyderabad" HotelCode="58957"/>
+
+      </Criterion>
+
+    </Criteria>
+
+  </OTA_HotelAvailRS>
+
+</CheckAvailabilityResponse>
