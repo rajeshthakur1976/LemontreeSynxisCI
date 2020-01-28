@@ -18,7 +18,7 @@ using System.Xml.Linq;
 using System.Xml.Schema;
 using System.Xml.Serialization;
 
-namespace Framework.SynxisCI.Common
+namespace Framework.SynxisCIV1.Common
 {
     public static class Utility
     {

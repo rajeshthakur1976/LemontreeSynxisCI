@@ -49,6 +49,30 @@ namespace LemontreeDLLCheck.Controllers
             return xmlHotelData;
         }
 
+
+        private void GetHotels()
+        {
+            ISynxisCIClient synxisCIClient = new SynxisCIClient();
+            var hotelDetailRequest = new HotelDetailsRequest
+
+            {
+                CompanyCode = "WSBE",
+                ID_Context = "Synxis",
+                RequestorID = "10",
+                UserID = _configuration["SynxisUserID"],
+                Password = _configuration["SynxisPassword"],
+                SysytemID = "111",
+                Hotels = new List<PropertyInfo>() { new PropertyInfo() { ChainID = "7710", HodelID = "57057" }, new PropertyInfo() { ChainID = "7710", HodelID = "58957" } }
+            };
+
+            var result = synxisCIClient.GetHotelDetailsAsync(hotelDetailRequest).Result;
+
+            string xmlHotelData = null;
+            Utility.TrySerialize(result, out xmlHotelData);
+
+
+           
+        }
         [Route("BookRoom.aspx")]
         public ActionResult<string> BookRoom()
         {
@@ -66,10 +90,10 @@ namespace LemontreeDLLCheck.Controllers
                 AgeQualifyingCode="10",
                 RommTypeCode="BUSR",
                 NoOfUnits=1,
-                RatePlanCode="BAR Promotion BNX CP",
+                RatePlanCode= "BAR promotion CP",
                 GuestCount="1",
-                CheckIndate="2020-01-19",
-                CheckOutDate= "2020-01-20",
+                CheckIndate="2020-01-25",
+                CheckOutDate= "2020-01-26",
                 HotelCode="58957",
                 ChainCode="7710",
                 CardCode="VI",
@@ -94,6 +118,49 @@ namespace LemontreeDLLCheck.Controllers
             return xmldata;
         }
 
+
+        private void BookRooms()
+        {
+            ISynxisCIClient synxisCIClient = new SynxisCIClient();
+            var BookingDetails = new BookRoomRequest
+
+            {
+                CompanyCode = "WSBE",
+                ID_Context = "Synxis",
+                RequestorID = "10",
+                UserID = _configuration["SynxisUserID"],
+                Password = _configuration["SynxisPassword"],
+                SysytemID = "111",
+                AgeQualifyingCode = "10",
+                RommTypeCode = "BUSR",
+                NoOfUnits = 1,
+                RatePlanCode = "BAR promotion CP",
+                GuestCount = "1",
+                CheckIndate = "2020-01-25",
+                CheckOutDate = "2020-01-26",
+                HotelCode = "58957",
+                ChainCode = "7710",
+                CardCode = "VI",
+                CardNo = "4111111111111111",
+                CardExpiryDate = "0420",
+                CardSeriesCode = "123",
+                CardHolderName = "Rajesh Thakur",
+                ResStatus = "Commit",
+                EchoToken = "Book Room",
+                BedTypeCodeSpecified = true,
+                Duration = "P1N",
+                CustomerSurname = "Thakur"
+
+            };
+
+            var result = synxisCIClient.CreateReservationsAsync(BookingDetails).Result;
+
+            string xmldata = null;
+            Utility.TrySerialize(result, out xmldata);
+
+
+            return xmldata;
+        }
         [Route("CheckRoomAvailability.aspx")]
         public ActionResult<string> CheckRoomAvailability()
         {
@@ -111,7 +178,7 @@ namespace LemontreeDLLCheck.Controllers
                 CheckInDate = Convert.ToString(System.DateTime.Now.AddDays(1)),
                 CheckOutDate = Convert.ToString(System.DateTime.Now.AddDays(3)),
                 Quantity = "1",
-                GuestCount = "2",
+                GuestCount = "1",
                 HotelCode = "58957"
 
             };

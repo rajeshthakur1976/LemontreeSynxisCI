@@ -1,12 +1,11 @@
-﻿using Framework.SynxisCI.Contract;
-using Framework.SynxisCI.Entity;
-using Lemontree.SynxisCI.Entity;
+﻿using Framework.SynxisCIV1.Contract;
+using Framework.SynxisCIV1.Entity;
 using SynxisCI;
 using System;
 using System.Threading.Tasks;
 using static SynxisCI.Ota2004AServiceSoapClient;
 
-namespace Framework.SynxisCI
+namespace Framework.SynxisCIV1
 {
     public class SynxisCIClient : ISynxisCIClient
     {

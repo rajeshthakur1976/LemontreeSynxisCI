@@ -1,12 +1,11 @@
-﻿using Framework.SynxisCI.Entity;
-using Lemontree.SynxisCI.Entity;
+﻿using Framework.SynxisCIV1.Entity;
 using SynxisCI;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Framework.SynxisCI.Contract
+namespace Framework.SynxisCIV1.Contract
 {
     public interface ISynxisCIClient
     {

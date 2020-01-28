@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lemontree.SynxisCI.Entity
+namespace Framework.SynxisCIV1.Entity
 {
     public class BookRoomRequest
     {

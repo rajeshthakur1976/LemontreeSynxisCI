@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Framework.SynxisCI.Entity
+namespace Framework.SynxisCIV1.Entity
 {
     public class HotelDetailsRequest
     {
@@ -10,10 +10,10 @@ namespace Framework.SynxisCI.Entity
         public string ID_Context { get; set; }
         public string CompanyCode { get; set; }
         public string SysytemID { get; set; }
-        public List<PropertyInfo> Hotels { get; set; }
+        public List<HotelDetails> Hotels { get; set; }
     }
 
-    public class PropertyInfo
+    public class HotelDetails
     {
         public string ChainID { get; set; }
         public string HodelID { get; set; }

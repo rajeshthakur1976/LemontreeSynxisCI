@@ -1,4 +1,4 @@
-﻿namespace Framework.SynxisCI.Entity
+﻿namespace Framework.SynxisCIV1.Entity
 {
     public class CheckAvailability
     {
