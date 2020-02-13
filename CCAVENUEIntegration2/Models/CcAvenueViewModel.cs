@@ -11,11 +11,11 @@ namespace CCAVENUEIntegration2.Models
         public string EncryptionRequest;
         public string CheckoutUrl;
 
-        public CcAvenueViewModel(string v1, string v2, string v3)
+        public CcAvenueViewModel(string encryptionRequest, string accessCode, string checkoutUrl)
         {
-            this.AccessCode = v2;
-            this.EncryptionRequest = v1;
-            this.CheckoutUrl = v3;
+            this.AccessCode = accessCode;
+            this.EncryptionRequest = encryptionRequest;
+            this.CheckoutUrl = checkoutUrl;
         }
 
       

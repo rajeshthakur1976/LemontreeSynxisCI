@@ -97,7 +97,7 @@ namespace CCAVENUEIntegration2.Controllers
                 {"order_id", orderId},
                 {"merchant_id", configuration["CCAvenueMerchentID"]},
                 {"amount", amount},
-                {"currency",configuration["INR"] },
+                {"currency",configuration["CCAvenueCurrency"] },
                 {"tid",System.DateTime.Now.Ticks.ToString() },
                 {"redirect_url",configuration["CCAvenuePaymentConfirmationURL"] },
                 {"cancel_url",configuration["CCAvenueCancelURL"]},
