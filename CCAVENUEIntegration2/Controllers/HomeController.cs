@@ -31,6 +31,16 @@ namespace CCAVENUEIntegration2.Controllers
             return View();
         }
 
+
+        //[Route("Home/{hotelname:regex(\\w+-\\w+)}")]
+        [Route("Home/{hotelname:regex(\\w+-hotel$)}")]
+        [HttpGet]
+        public IActionResult CitySearch(string hotelname)
+        {
+            string strhotelname = hotelname;
+            return View();
+        }
+
         public void MyWebRequest()
 
         {
