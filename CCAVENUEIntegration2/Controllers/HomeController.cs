@@ -90,6 +90,20 @@ namespace CCAVENUEIntegration2.Controllers
             string orderAmount = "20000";
             return View("CcAvenue", new CcAvenueViewModel(queryParameter.Encrypt(PreparePaymentgatewayParameter(Convert.ToString(orderID), orderAmount), configuration["CCAvenueWorkingKey"]), configuration["CCAvenueAccess_code"], configuration["CCavenueURL"]));
         }
+        [HttpPost]
+        public IActionResult PaymentCofirmation(string encResp)
+        {
+            var decryption = new CCACrypto();
+            var response = decryption.Decrypt(encResp, configuration["CCAvenueWorkingKey"]);
+            return View("PaymentCofirmation");
+        }
+        [HttpPost]
+        public IActionResult PaymentCancel(string encResp)
+        {
+            var decryption = new CCACrypto();
+            var decryptedParameters = decryption.Decrypt(encResp, configuration["CCAvenueWorkingKey"]);
+            return View("PaymentCanceled");
+        }
         private string PreparePaymentgatewayParameter(string orderId, string amount)
         {
             var queryParameters = new Dictionary<string, string>
@@ -119,22 +133,7 @@ namespace CCAVENUEIntegration2.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-        [HttpPost]
-        public IActionResult PaymentCofirmation(string encResp)
-        {
-            var decryption = new CCACrypto();
-            var response = decryption.Decrypt(encResp, configuration["CCAvenueWorkingKey"]);
-            return View("PaymentCofirmation");
-        }
-
-
-        [HttpPost]
-        public IActionResult PaymentCancel(string encResp)
-        {
-            var decryption = new CCACrypto();
-            var decryptedParameters = decryption.Decrypt(encResp, configuration["CCAvenueWorkingKey"]);
-            return View("PaymentCanceled");
-        }
+       
     }
 }
 

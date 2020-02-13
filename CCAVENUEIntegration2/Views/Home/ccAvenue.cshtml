@@ -5,20 +5,16 @@
            name="encRequest" value="@Model.EncryptionRequest" />
     <input type="hidden" id="access_code"
            name="access_code" value="@Model.AccessCode" />
-    @*<input  type="submit" value="Submit" />*@
 </form>
 <div class="row" style="text-align:center">
     <div class="small-12 large-12">
-        <h2 class="text-center">Processing...</h2>
+        <h2 class="text-center">Processing your request...</h2>
     </div>
 </div>
-
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
-
     $(document).ready(function () {
-      $(window).on("load", $("#paymentForm").submit());
+        $(window).on("load", $("#paymentForm").submit());
     });
-    
+
 </script>
